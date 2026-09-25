@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hyvää syntymäpäivää, Anna ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stars"></div>
+<main class="app">
+  <section id="intro" class="screen active">
+    <div class="card">
+      <p class="eyebrow">PIENI YLLÄTYS SINULLE</p>
+      <h1 id="introText"></h1>
+      <button id="startBtn" class="hidden">Avaa yllätys ✨</button>
+    </div>
+  </section>
+
+  <section id="birthday" class="screen">
+    <div class="birthday-card">
+      <div class="sparkles">✦　✧　✦</div>
+      <p class="eyebrow">TÄNÄÄN ON SINUN PÄIVÄSI</p>
+      <h2>Hyvää syntymäpäivää,<br><span>Anna ❤️</span></h2>
+      <p class="lead">Toivon, että tästä päivästä tulee sellainen, jonka muistat hymyillen.</p>
+      <div class="cake" aria-label="birthday cake">
+        <div class="flame"></div><div class="candle"></div>
+        <div class="icing"></div><div class="cake-body"></div>
+        <div class="plate"></div>
+      </div>
+      <button id="messageBtn">Lue viesti 💌</button>
+    </div>
+  </section>
+
+  <section id="message" class="screen">
+    <div class="message-card">
+      <p class="eyebrow">PIENI VIESTI</p>
+      <p id="quote"></p>
+      <button id="nextBtn">Seuraava →</button>
+      <div class="progress"><span id="progress"></span></div>
+    </div>
+  </section>
+
+  <section id="final" class="screen">
+    <div class="final-card">
+      <div class="heart">♥</div>
+      <p class="eyebrow">JA VIELÄ KERRAN...</p>
+      <h2>Hyvää syntymäpäivää ❤️</h2>
+      <p>Kiitos, että olet osa elämääni.</p>
+      <p class="small">Toivon sinulle paljon hyviä hetkiä, naurua ja kaikkea hyvää tulevaan vuoteen.</p>
+      <button id="replayBtn">Katso uudelleen ↻</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
